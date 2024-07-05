@@ -1,4 +1,4 @@
 # .npmignore
 .gitignore
-.eslintrc
+.eslintrc.json
 .prettierrc
