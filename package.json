@@ -1,6 +1,6 @@
 {
-  "name": "api-rate-limiter",
-  "version": "1.0.7",
+  "name": "quick-api-rate-limiter",
+  "version": "0.0.1",
   "description": "It can be used seemlessly for all free/subscribed api calls untill it's api limit reached",
   "main": "src/index.js",
   "type": "module",
