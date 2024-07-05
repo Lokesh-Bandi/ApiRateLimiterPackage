@@ -1,7 +1,7 @@
 {
-  "name": "apiratelimiterpackage",
-  "version": "1.0.5",
-  "description": "It can be used seemlessly for all free/subscribed api calls untill it's api limit reached  ",
+  "name": "api-rate-limiter",
+  "version": "1.0.7",
+  "description": "It can be used seemlessly for all free/subscribed api calls untill it's api limit reached",
   "main": "src/index.js",
   "type": "module",
   "scripts": {
@@ -11,7 +11,7 @@
   "keywords": [
     "Api Rate Limiter"
   ],
-  "author": "LOKESH BANDI",
+  "author": "Lokesh Bandi",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^8.57.0",
