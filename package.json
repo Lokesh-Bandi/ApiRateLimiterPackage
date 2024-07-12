@@ -1,8 +1,8 @@
 {
   "name": "quick-api-rate-limiter",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "It can be used seemlessly for all free/subscribed api calls untill it's api limit reached",
-  "main": "src/index.js",
+  "main": "index.js",
   "type": "module",
   "scripts": {
     "start": "node src/index.js",

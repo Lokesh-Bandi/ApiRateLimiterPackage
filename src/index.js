@@ -1,14 +1,19 @@
 import ApiRateLimiter from './ApiRateLimiter.js';
 
-const executeAPI = () => {
-  console.log('1'); // API Callback
+const executeAPI = (tc) => {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      resolve(tc  + '  -- tinnu');
+    }, 0);
+  }) // API Callback
 };
 
 const rateLimiterInstance = new ApiRateLimiter(executeAPI, {
   maxCallsPerSecond: 10,
-  maxCallsPerMinute: 99,
-  maxCallsPerHour: 150,
-  maxCallsPerDay: 201,
+  // maxCallsPerMinute: 100,
+  // maxCallsPerHour: 150,
+  maxCallsPerDay: 200,
 });
 
-rateLimiterInstance.startRateLimiter();
+const res = await rateLimiterInstance.startRateLimiter();
+console.log(res);
